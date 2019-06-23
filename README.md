@@ -22,3 +22,5 @@ Scripts:
  - specialsauce2.bat - see above
  - veryfast.bat - creates encodes at various bitrates of the "lossless.mov" source using X264 VeryFast preset
  - warframe.bat - encodes a new Warframe-specific lossless recording to X264 using VeryFast/Fast/Medium/Slow for another point of comparison.
+
+NOTE: Need to change -tune psnr to -tune ssim for ssim tests! I edited as I went so I left this out apparently.
